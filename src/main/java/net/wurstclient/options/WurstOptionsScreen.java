@@ -23,7 +23,6 @@ import net.minecraft.util.Colors;
 import net.minecraft.util.Util;
 import net.minecraft.util.Util.OperatingSystem;
 import net.wurstclient.WurstClient;
-import net.wurstclient.analytics.PlausibleAnalytics;
 import net.wurstclient.commands.FriendsCmd;
 import net.wurstclient.hacks.XRayHack;
 import net.wurstclient.other_features.VanillaSpoofOtf;
@@ -59,7 +58,6 @@ public class WurstOptionsScreen extends Screen
 		WurstClient wurst = WurstClient.INSTANCE;
 		FriendsCmd friendsCmd = wurst.getCmds().friendsCmd;
 		CheckboxSetting middleClickFriends = friendsCmd.getMiddleClickFriends();
-		PlausibleAnalytics plausible = wurst.getPlausible();
 		VanillaSpoofOtf vanillaSpoofOtf = wurst.getOtfs().vanillaSpoofOtf;
 		CheckboxSetting forceEnglish =
 			wurst.getOtfs().translationsOtf.getForceEnglish();
@@ -70,17 +68,6 @@ public class WurstOptionsScreen extends Screen
 			middleClickFriends.getWrappedDescription(200),
 			b -> middleClickFriends
 				.setChecked(!middleClickFriends.isChecked()));
-		
-		new WurstOptionsButton(-154, 48,
-			() -> "Count Users: " + (plausible.isEnabled() ? "ON" : "OFF"),
-			"Counts how many people are using Wurst and which versions are the"
-				+ " most popular. This data helps me to decide when I can stop"
-				+ " supporting old versions.\n\n"
-				+ "These statistics are completely anonymous, never sold, and"
-				+ " stay in the EU (I'm self-hosting Plausible in Germany)."
-				+ " There are no cookies or persistent identifiers"
-				+ " (see plausible.io).",
-			b -> plausible.setEnabled(!plausible.isEnabled()));
 		
 		new WurstOptionsButton(-154, 72,
 			() -> "Spoof Vanilla: "
@@ -119,26 +106,16 @@ public class WurstOptionsScreen extends Screen
 	{
 		OperatingSystem os = Util.getOperatingSystem();
 		
-		new WurstOptionsButton(54, 24, () -> "Official Website",
-			"§n§lWurstClient.net",
-			b -> os.open("https://www.wurstclient.net/options-website/"));
+		new WurstOptionsButton(54, 24, () -> "Website",
+			"§n§larti4ikmin.github.io/Wurst++",
+			b -> os.open("https://arti4ikmin.github.io/Wurst++/index.html"));
 		
 		new WurstOptionsButton(54, 48, () -> "Wurst Wiki", "§n§lWurst.Wiki",
 			b -> os.open("https://www.wurstclient.net/options-wiki/"));
 		
-		new WurstOptionsButton(54, 72, () -> "WurstForum", "§n§lWurstForum.net",
-			b -> os.open("https://www.wurstclient.net/options-forum/"));
-		
-		new WurstOptionsButton(54, 96, () -> "Twitter", "@Wurst_Imperium",
-			b -> os.open("https://www.wurstclient.net/options-twitter/"));
-		
-		new WurstOptionsButton(54, 120, () -> "Donate",
-			"§n§lWurstClient.net/donate\n"
-				+ "Donate now to help me keep the Wurst Client alive and free"
-				+ " to use for everyone.\n\n"
-				+ "Every bit helps and is much appreciated! You can also get a"
-				+ " few cool perks in return.",
-			b -> os.open("https://www.wurstclient.net/options-donate/"));
+		new WurstOptionsButton(54, 72, () -> "Original Wurst", "§n§lWurstForum.net",
+			b -> os.open("https://www.wurstclient.net/"));
+
 	}
 	
 	@Override
@@ -166,7 +143,7 @@ public class WurstOptionsScreen extends Screen
 		int y1 = 40;
 		int y2 = height / 4 + 24 - 28;
 		
-		context.drawCenteredTextWithShadow(tr, "Wurst Options", middleX, y1,
+		context.drawCenteredTextWithShadow(tr, "Wurst++ Options", middleX, y1,
 			Colors.WHITE);
 		
 		context.drawCenteredTextWithShadow(tr, "Settings", middleX - 104, y2,

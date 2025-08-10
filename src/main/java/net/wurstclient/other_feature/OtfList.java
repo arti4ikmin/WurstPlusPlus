@@ -17,7 +17,6 @@ import net.wurstclient.other_features.*;
 
 public final class OtfList
 {
-	public final ChangelogOtf changelogOtf = new ChangelogOtf();
 	public final CleanUpOtf cleanUpOtf = new CleanUpOtf();
 	public final DisableOtf disableOtf = new DisableOtf();
 	public final HackListOtf hackListOtf = new HackListOtf();
@@ -30,8 +29,6 @@ public final class OtfList
 	public final TabGuiOtf tabGuiOtf = new TabGuiOtf();
 	public final TranslationsOtf translationsOtf = new TranslationsOtf();
 	public final VanillaSpoofOtf vanillaSpoofOtf = new VanillaSpoofOtf();
-	public final WikiDataExportOtf wikiDataExportOtf = new WikiDataExportOtf();
-	public final WurstCapesOtf wurstCapesOtf = new WurstCapesOtf();
 	public final WurstLogoOtf wurstLogoOtf = new WurstLogoOtf();
 	public final ZoomOtf zoomOtf = new ZoomOtf();
 	
