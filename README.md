@@ -6,7 +6,7 @@
 
 - **Downloads:** [github.com/arti4ikmin/WurstPlusPlus/releases](https://github.com/arti4ikmin/WurstPlusPlus/releases)
 
-- **Feature list:** [arti4ikmin.github.io/Wurst++](https://arti4ikmin.github.io/Wurst++/index.html)
+- **Feature list:** [Wurst++/#exclusive-features](https://github.com/arti4ikmin/WurstPlusPlus?tab=readme-ov-file#exclusive-features)
 
 ---
 ### Why another fork?
@@ -27,18 +27,16 @@ Wurst 7 can be installed just like any other Fabric mod. Here are the basic inst
 
 ## Exclusive features:
 
-- New Hack: AutoMLG - automates MLG water bucket/clutch maneuvers
+| Feature                       | Category     | Description                                                         |
+|:------------------------------|:-------------|:--------------------------------------------------------------------|
+| **AutoMLG**                   | New Hack     | Automates MLG water bucket/clutch maneuvers.                        |
+| Lock interaction in freecam   | New Feature  | Allows locking interaction while in freecam mode.                   |
+| Disable Wurst++ Logo          | New Feature  | Provides an option to disable the Wurst++ logo.                     |
+| Tracers in Search Hack        | New Feature  | Implements tracers functionality within the Search Hack.            |
+| Removed Analytics             | More Privacy | Enhances user privacy by removing analytic + download count logging |
+| Removed link redirect logging | More Privacy | Enhances user privacy by no longer logging link redirects.          |
 
-
-- New Feature: [Lock interaction in freecam](https://github.com/Wurst-Imperium/Wurst7/issues/1172)
-- New Feature: Disable Wurst++ Logo
-- New Feature: Tracers in Search Hack (4 PRs and a few issues asking/Implementing that in the official repo, all rejected)
-
-
-- More Privacy: Removed download count logging; Removed Analytics; Removed link redirect logging
-- 
-
-
+<br>
 ---
 <details>
 <summary> Development Setup </summary>
