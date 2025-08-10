@@ -23,6 +23,21 @@ Wurst 7 can be installed just like any other Fabric mod. Here are the basic inst
 
 1. Run the Fabric installer.
 2. Add the Wurst Client and Fabric API to your mods folder.
+---
+
+## Exclusive features:
+
+- New Hack: AutoMLG - automates MLG water bucket/clutch maneuvers
+
+
+- New Feature: [Lock interaction in freecam](https://github.com/Wurst-Imperium/Wurst7/issues/1172)
+- New Feature: Disable Wurst++ Logo
+- New Feature: Tracers in Search Hack (4 PRs and a few issues asking/Implementing that in the official repo, all rejected)
+
+
+- More Privacy: Removed download count logging; Removed Analytics; Removed link redirect logging
+- 
+
 
 ---
 <details>
