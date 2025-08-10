@@ -113,9 +113,9 @@ public class WurstOptionsScreen extends Screen
 		new WurstOptionsButton(54, 48, () -> "Wurst Wiki", "§n§lWurst.Wiki",
 			b -> os.open("https://www.wurstclient.net/options-wiki/"));
 		
-		new WurstOptionsButton(54, 72, () -> "Original Wurst", "§n§lWurstForum.net",
-			b -> os.open("https://www.wurstclient.net/"));
-
+		new WurstOptionsButton(54, 72, () -> "Original Wurst",
+			"§n§lWurstForum.net", b -> os.open("https://www.wurstclient.net/"));
+		
 	}
 	
 	@Override
