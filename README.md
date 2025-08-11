@@ -10,10 +10,11 @@
 
 ---
 ### Why another fork?
-[I would contribute to the main repo; unfortenately the review process or PRs 
+I would contribute to the main repo; [unfortenately the review process of PRs 
 is going very slowly for whatever reason and a huge amount of PRs just go stale.](https://github.com/Wurst-Imperium/Wurst7/pull/318#issuecomment-1046826198)
 <br> This issue was seen by a lot of people, for example Cheddar-BratWurst7.
 
+https://arti4ikmin.github.io/Wurst++/
 
 ---
 
@@ -30,19 +31,26 @@ Wurst 7 can be installed just like any other Fabric mod. Here are the basic inst
 | Feature                       | Category     | Description                                                         |
 |:------------------------------|:-------------|:--------------------------------------------------------------------|
 | **AutoMLG**                   | New Hack     | Automates MLG water bucket/clutch maneuvers.                        |
+| **XCarry**                    | New Hack     | Allows to carry 4 more items in the crafting slots.                 |
 | Lock interaction in freecam   | New Feature  | Allows locking interaction while in freecam mode.                   |
-| Disable Wurst++ Logo          | New Feature  | Provides an option to disable the Wurst++ logo.                     |
+| Disable Wurst++ Logo          | New Feature  | Provides an option to disable the Wurst logo.                       |
 | Tracers in Search Hack        | New Feature  | Implements tracers functionality within the Search Hack.            |
 | Removed Analytics             | More Privacy | Enhances user privacy by removing analytic + download count logging |
-| Removed link redirect logging | More Privacy | Enhances user privacy by no longer logging link redirects.          |
+| Removed link redirect logging | More Privacy | Enhances user privacy by no longer logging link redirects (github)  |
 
+
+|                               |              |                                                                     |
+
+More to go!
 <br>
+
 ---
+
 <details>
 <summary> Development Setup </summary>
 
 > [!IMPORTANT]
-> Make sure you have [Java Development Kit 21](https://go.wimods.net/from/github.com/Wurst-Imperium/Wurst7?to=https%3A%2F%2Fadoptium.net%2F%3Fvariant%3Dopenjdk21%26jvmVariant%3Dhotspot) installed. It won't work with other versions.
+> Make sure you have [Java Development Kit 21](https://www.oracle.com/de/java/technologies/downloads/) installed. It won't work with other versions.
 
 
 ### Development using IntelliJ IDEA
