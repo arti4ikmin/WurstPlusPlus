@@ -24,23 +24,23 @@ https://arti4ikmin.github.io/Wurst++/
 
 Wurst 7 can be installed just like any other Fabric mod. Here are the basic installation steps:
 
-1. Run the Fabric installer.
-2. Add the Wurst Client and Fabric API to your mods folder.
+1. Run the [Fabric installer](https://fabricmc.net/use/installer/). 
+2. Add the [Wurst Client](https://github.com/arti4ikmin/WurstPlusPlus/releases) and [Fabric API](https://modrinth.com/mod/fabric-api/versions) to your mods folder.
 ---
 
 ## Exclusive features:
 
-| Feature                       | Category     | Description                                                         |
-|:------------------------------|:-------------|:--------------------------------------------------------------------|
-| **AutoMLG**                   | New Hack     | Automates MLG water bucket/clutch maneuvers.                        |
-| **XCarry**                    | New Hack     | Allows to carry 4 more items in the crafting slots.                 |
-| **BeaconExploit**             | New Hack     | Allows to get ANY combo of effects (even Regen 2).                  |
-| AutoLightning                 | New Hack     | Automatically lights up dark areas with light sources.              |
-| Lock interaction in freecam   | New Feature  | Allows locking interaction while in freecam mode.                   |
-| Disable Wurst++ Logo          | New Feature  | Provides an option to disable the Wurst logo.                       |
-| Tracers in Search Hack        | New Feature  | Implements tracers functionality within the Search Hack.            |
-| Removed Analytics             | More Privacy | Enhances user privacy by removing analytic + download count logging |
-| Removed link redirect logging | More Privacy | Enhances user privacy by no longer logging link redirects (github)  |
+| Feature                       | Category     | Description                                                                      |
+|:------------------------------|:-------------|:---------------------------------------------------------------------------------|
+| **AutoMLG**                   | New Hack     | Automates MLG water bucket/clutch maneuvers.                                     |
+| **XCarry**                    | New Hack     | Allows to use 4 more slots (in the )crafting slots) like normal inventory slots. |
+| **BeaconExploit**             | New Hack     | Allows to get ANY combo of effects (even Regen 2).                               |
+| AutoLightning                 | New Hack     | Automatically lights up dark areas with light sources.                           |
+| Lock interaction in freecam   | New Feature  | Allows locking interaction while in freecam mode.                                |
+| Disable Wurst++ Logo          | New Feature  | Provides an option to disable the Wurst logo.                                    |
+| Tracers in Search Hack        | New Feature  | Implements tracers functionality within the Search Hack.                         |
+| Removed Analytics             | More Privacy | Enhances user privacy by removing analytic + download count logging              |
+| Removed link redirect logging | More Privacy | Enhances user privacy by no longer logging link redirects (github)               |
 
 
 |                               |              |                                                                     |
