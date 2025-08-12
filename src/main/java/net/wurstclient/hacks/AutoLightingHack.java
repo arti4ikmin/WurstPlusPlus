@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (c) 2014-2025 Wurst-Imperium and contributors.
  *
  * This source code is subject to the terms of the GNU General Public
@@ -7,7 +7,6 @@
  */
 package net.wurstclient.hacks;
 
-import net.minecraft.block.BlockState;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.Item;
@@ -141,7 +140,8 @@ public final class AutoLightingHack extends Hack
 			playerPos.add(r, r, r)))
 		{
 			if(BlockUtils.getState(pos).isReplaceable()
-				&& BlockUtils.getState(pos).isSideSolidFullSquare(MC.world, pos.down(), Direction.UP)
+				&& BlockUtils.getState(pos).isSideSolidFullSquare(MC.world,
+					pos.down(), Direction.UP)
 				&& MC.world.getLightLevel(LightType.BLOCK,
 					pos) <= lightLevelThreshold.getValueI())
 			{
@@ -189,10 +189,9 @@ public final class AutoLightingHack extends Hack
 		if(placementPreviews.isEmpty())
 			return;
 		
-		double placeRangeSq = placeRange.getValueSq();
 		for(BlockPos target : placementPreviews)
 		{
-			if(target.getSquaredDistance(eyesPos) > placeRangeSq)
+			if(target.getSquaredDistance(eyesPos) > placeRange.getValueSq())
 				continue;
 			
 			BlockPlacingParams params =
