@@ -14,6 +14,8 @@ I would contribute to the main repo; [unfortenately the review process of PRs
 is going very slowly for whatever reason and a huge amount of PRs just go stale.](https://github.com/Wurst-Imperium/Wurst7/pull/318#issuecomment-1046826198)
 <br> This issue was seen by a lot of people, for example Cheddar-BratWurst7.
 
+\+ So many beautiful feature requests were ignored...
+
 https://arti4ikmin.github.io/Wurst++/
 
 ---
@@ -32,6 +34,7 @@ Wurst 7 can be installed just like any other Fabric mod. Here are the basic inst
 |:------------------------------|:-------------|:--------------------------------------------------------------------|
 | **AutoMLG**                   | New Hack     | Automates MLG water bucket/clutch maneuvers.                        |
 | **XCarry**                    | New Hack     | Allows to carry 4 more items in the crafting slots.                 |
+| **BeaconExploit**             | New Hack     | Allows to get ANY combo of effects (even Regen 2).                  |
 | AutoLightning                 | New Hack     | Automatically lights up dark areas with light sources.              |
 | Lock interaction in freecam   | New Feature  | Allows locking interaction while in freecam mode.                   |
 | Disable Wurst++ Logo          | New Feature  | Provides an option to disable the Wurst logo.                       |
