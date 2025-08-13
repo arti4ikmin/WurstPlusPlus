@@ -44,10 +44,10 @@ public final class AntiHungerHack extends Hack implements PacketOutputListener
 		if(!(event.getPacket() instanceof PlayerMoveC2SPacket packet))
 			return;
 		
-		if(!MC.player.isOnGround() || MC.player.fallDistance > 0.5)
-			return;
-		
-		if(MC.interactionManager.isBreakingBlock())
+		if(!MC.player.isOnGround() || MC.player.fallDistance > 0.5F
+			|| MC.interactionManager.isBreakingBlock() || MC.player.hasVehicle()
+			|| MC.player.isTouchingWater() || MC.player.isSwimming()
+			|| MC.player.isSubmergedInWater())
 			return;
 		
 		event.setPacket(PacketUtils.modifyOnGround(packet, false));

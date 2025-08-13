@@ -11,7 +11,7 @@
 ---
 ### Why another fork?
 I would contribute to the main repo; [unfortenately the review process of PRs 
-is going very slowly for whatever reason and a huge amount of PRs just go stale.](https://github.com/Wurst-Imperium/Wurst7/pull/318#issuecomment-1046826198)
+is going very slowly for whatever reason and a huge amount of PRs just go stale](https://github.com/Wurst-Imperium/Wurst7/pull/318#issuecomment-1046826198)
 <br> This issue was seen by a lot of people, for example Cheddar-BratWurst7.
 
 \+ So many beautiful feature requests were ignored...
@@ -22,10 +22,10 @@ https://arti4ikmin.github.io/Wurst++/
 
 ## Installation
 
-Wurst 7 can be installed just like any other Fabric mod. Here are the basic installation steps:
+Wurst++ can be installed just like any other Fabric mod. Here are the basic installation steps:
 
 1. Run the [Fabric installer](https://fabricmc.net/use/installer/). 
-2. Add the [Wurst Client](https://github.com/arti4ikmin/WurstPlusPlus/releases) and [Fabric API](https://modrinth.com/mod/fabric-api/versions) to your mods folder.
+2. Add the [Wurst++ Client](https://github.com/arti4ikmin/WurstPlusPlus/releases) and [Fabric API](https://modrinth.com/mod/fabric-api/versions) to your mods folder.
 ---
 
 ## Exclusive features:
