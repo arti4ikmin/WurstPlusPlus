@@ -119,12 +119,12 @@ public final class KeybindList
 		Set<Keybind> set = new LinkedHashSet<>();
 		addKB(set, "b", "fastplace;fastbreak");
 		addKB(set, "c", "fullbright");
-		addKB(set, "g", "flight");
-		addKB(set, "semicolon", "speednuker");
+		addKB(set, "g", "jetpack");
+		// addKB(set, "semicolon", "speednuker");
 		addKB(set, "h", "say /home");
 		addKB(set, "j", "jesus");
 		addKB(set, "k", "multiaura");
-		addKB(set, "n", "nuker");
+		// addKB(set, "n", "nuker");
 		addKB(set, "r", "killaura");
 		addKB(set, "right.shift", "navigator");
 		addKB(set, "right.control", "clickgui");

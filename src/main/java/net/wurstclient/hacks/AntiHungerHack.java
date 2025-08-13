@@ -7,22 +7,30 @@
  */
 package net.wurstclient.hacks;
 
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
 import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
 import net.wurstclient.Category;
 import net.wurstclient.SearchTags;
 import net.wurstclient.events.PacketOutputListener;
 import net.wurstclient.hack.DontSaveState;
 import net.wurstclient.hack.Hack;
+import net.wurstclient.settings.CheckboxSetting;
 import net.wurstclient.util.PacketUtils;
 
 @DontSaveState
 @SearchTags({"anti hunger"})
 public final class AntiHungerHack extends Hack implements PacketOutputListener
 {
+	private final CheckboxSetting softSprint = new CheckboxSetting(
+		"Soft NoSprint",
+		"Doesnt send sprint packages to server = no hunger, you are sprinting client-side, might trigger AntiCheat.",
+		false);
+	
 	public AntiHungerHack()
 	{
 		super("AntiHunger");
 		setCategory(Category.MOVEMENT);
+		addSetting(softSprint);
 	}
 	
 	@Override
@@ -41,6 +49,17 @@ public final class AntiHungerHack extends Hack implements PacketOutputListener
 	@Override
 	public void onSentPacket(PacketOutputEvent event)
 	{
+		if(softSprint.isChecked()
+			&& event.getPacket() instanceof ClientCommandC2SPacket sprintPacket)
+		{
+			if(sprintPacket
+				.getMode() == ClientCommandC2SPacket.Mode.START_SPRINTING)
+			{
+				event.cancel();
+				return;
+			}
+		}
+		
 		if(!(event.getPacket() instanceof PlayerMoveC2SPacket packet))
 			return;
 		
