@@ -10,7 +10,7 @@ Under `Clean Up`:
 3. Select the `Wurst-Imperium` profile
 4. Click `Apply`
 
-![screenshot of Eclipse Clean Up settings](https://img.wimods.net/github.com/Wurst-Imperium/Wurst7/codestyle?to=https://i.imgur.com/mHKDHvV.png)
+![screenshot of Eclipse Clean Up settings](https://i.imgur.com/mHKDHvV)
 
 Under `Code Templates`:
 1. Enable project specific settings

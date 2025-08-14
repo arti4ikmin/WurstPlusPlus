@@ -27,7 +27,7 @@ public enum ChatUtils
 	private static final MinecraftClient MC = WurstClient.MC;
 	
 	public static final String WURST_PREFIX =
-		"\u00a7c[\u00a76Wurst\u00a7c]\u00a7r ";
+		"\u00a7c[\u00a76Wurst++\u00a7c]\u00a7r ";
 	private static final String WARNING_PREFIX =
 		"\u00a7c[\u00a76\u00a7lWARNING\u00a7c]\u00a7r ";
 	private static final String ERROR_PREFIX =
