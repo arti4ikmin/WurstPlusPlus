@@ -54,12 +54,12 @@ public final class TreeBotHack extends Hack
 	
 	private final FacingSetting facing = FacingSetting.withoutPacketSpam(
 		"How TreeBot should face the logs and leaves when breaking them.\n\n"
-			+ "\u00a7lOff\u00a7r - Don't face the blocks at all. Will be"
+			+ "§lOff§r - Don't face the blocks at all. Will be"
 			+ " detected by anti-cheat plugins.\n\n"
-			+ "\u00a7lServer-side\u00a7r - Face the blocks on the"
+			+ "§lServer-side§r - Face the blocks on the"
 			+ " server-side, while still letting you move the camera freely on"
 			+ " the client-side.\n\n"
-			+ "\u00a7lClient-side\u00a7r - Face the blocks by moving your"
+			+ "§lClient-side§r - Face the blocks by moving your"
 			+ " camera on the client-side. This is the most legit option, but"
 			+ " can be disorienting to look at.");
 	

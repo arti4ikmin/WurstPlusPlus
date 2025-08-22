@@ -33,7 +33,7 @@ Wurst++ can be installed just like any other Fabric mod. Here are the basic inst
 | Feature                       | Category     | Description                                                                                    |
 |:------------------------------|:-------------|:-----------------------------------------------------------------------------------------------|
 | **AutoMLG**                   | New Hack     | Automates MLG water bucket/clutch maneuvers.                                                   |
-| **XCarry**                    | New Hack     | Allows to use 4 more slots (in the )crafting slots) like normal inventory slots.               |
+| **XCarry**                    | New Hack     | Allows to use 4 more slots (in the crafting slots) like normal inventory slots.                |
 | **BeaconExploit**             | New Hack     | Allows to get ANY combo of effects (even Regen 2).                                             |
 | AutoLightning                 | New Hack     | Automatically lights up dark areas with light sources.                                         |
 | Lock interaction in freecam   | New Feature  | Allows locking interaction while in freecam mode.                                              |

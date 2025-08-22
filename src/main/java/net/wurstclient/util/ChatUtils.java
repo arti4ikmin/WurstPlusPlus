@@ -26,14 +26,10 @@ public enum ChatUtils
 	
 	private static final MinecraftClient MC = WurstClient.MC;
 	
-	public static final String WURST_PREFIX =
-		"§c[§6Wurst++§c]§r ";
-	private static final String WARNING_PREFIX =
-		"§c[§6§lWARNING§c]§r ";
-	private static final String ERROR_PREFIX =
-		"§c[§4§lERROR§c]§r ";
-	private static final String SYNTAX_ERROR_PREFIX =
-		"§4Syntax error:§r ";
+	public static final String WURST_PREFIX = "§c[§6Wurst++§c]§r ";
+	private static final String WARNING_PREFIX = "§c[§6§lWARNING§c]§r ";
+	private static final String ERROR_PREFIX = "§c[§4§lERROR§c]§r ";
+	private static final String SYNTAX_ERROR_PREFIX = "§4Syntax error:§r ";
 	
 	private static boolean enabled = true;
 	
