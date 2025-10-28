@@ -357,7 +357,7 @@ public final class AutoMLGHack extends Hack
 		
 		Vec3d[] positions = new Vec3d[offsets.length];
 		for(int i = 0; i < offsets.length; i++)
-			positions[i] = player.getPos().add(offsets[i]);
+			positions[i] = player.getEntityPos().add(offsets[i]);
 		
 		Vec3d vel = player.getVelocity();
 		

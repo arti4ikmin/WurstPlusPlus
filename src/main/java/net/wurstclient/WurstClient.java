@@ -51,7 +51,7 @@ public enum WurstClient
 	
 	public static final String VERSION = "7.50.3";
 	public static final String MC_VERSION = "1.21.10";
-
+	
 	private EventManager eventManager;
 	private AltManager altManager;
 	private HackList hax;
@@ -81,7 +81,7 @@ public enum WurstClient
 		MC = MinecraftClient.getInstance();
 		IMC = (IMinecraftClient)MC;
 		wurstFolder = createWurstFolder();
-
+		
 		eventManager = new EventManager(this);
 		
 		Path enabledHacksFile = wurstFolder.resolve("enabled-hacks.json");
@@ -159,7 +159,7 @@ public enum WurstClient
 	{
 		return translator.translate(key, args);
 	}
-
+	
 	public EventManager getEventManager()
 	{
 		return eventManager;
